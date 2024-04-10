@@ -1,3 +1,3 @@
 Dictionary Application 
 
-Bento Grid Layout 
+Bento Grid Layout - Responsive Design (Desktop Tablet Phone) 

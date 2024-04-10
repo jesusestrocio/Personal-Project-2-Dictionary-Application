@@ -1,0 +1,171 @@
+/* Styles Media Query For Tablet Low End 601 x 962 & 1280 x 800  */
+@media (max-width: 601px) {
+
+  h1, .website-title { 
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    margin: 15px 0px 30px 0px;
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .grid-container { 
+    border: 2px solid blue;
+    margin: 1.5rem;
+    max-width: auto;
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 1rem;
+    grid-template-areas: 
+    "section1 section2"
+    "section3 section3"
+    "section4 section5"
+    ;
+  }
+
+/* Do the next two css selectors work?  */
+  section { 
+    border: 2px solid seagreen;
+    /* background-color: ; */
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column ;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: all 200ms ease;
+    /* height: 300px; */
+
+  }
+
+  section:hover {
+    cursor: pointer;
+    background-color: slategray;
+    outline: 1px solid #817b7b;
+  }
+
+  button { 
+    display: inline-block;
+    padding: 0px;
+  }
+
+.section-1 {
+    background-color: #85a832;
+    grid-area: section1;
+}
+
+.section-2 {
+    background-color: #de99dd;
+    grid-area: section2;
+
+}
+
+.section-3 {
+    background-color: #ffb915;
+    grid-area: section3;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.section-4 {
+  background-color: #bf6767;
+  grid-area: section4;
+}
+
+.section-5 {
+    background-color: #39c4ef;
+    grid-area: section5;
+
+}
+    }
+
+    @media (max-width: 1280px) {
+    
+
+      h1, .website-title { 
+        display: flex;
+        justify-content: center;
+        border: 2px solid red;
+        margin: 15px 0px 30px 0px;
+        font-size: 25px;
+      }
+    
+      h3 {
+        font-size: 15px;
+      }
+    
+      .grid-container { 
+        border: 2px solid blue;
+        margin: 1.5rem;
+        max-width: auto;
+        display: grid;
+        grid-auto-columns: 1fr;
+        gap: 1rem;
+        grid-template-areas: 
+        "section1 section2"
+        "section3 section3"
+        "section4 section5"
+        ;
+      }
+    
+    /* Do the next two css selectors work?  */
+      section { 
+        border: 2px solid seagreen;
+        /* background-color: ; */
+        text-align: center;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column ;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        transition: all 200ms ease;
+        /* height: 220px; */
+    
+      }
+    
+      section:hover {
+        cursor: pointer;
+        background-color: slategray;
+        outline: 1px solid #817b7b;
+      }
+    
+      button { 
+        display: inline-block;
+        padding: 0px;
+      }
+    
+    .section-1 {
+        background-color: #85a832;
+        grid-area: section1;
+    }
+    
+    .section-2 {
+        background-color: #de99dd;
+        grid-area: section2;
+    
+    }
+    
+    .section-3 {
+        background-color: #ffb915;
+        grid-area: section3;
+        border-radius: 500px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-4 {
+      background-color: #bf6767;
+      grid-area: section4;
+    }
+    
+    .section-5 {
+        background-color: #39c4ef;
+        grid-area: section5;
+    
+    }
+        }
